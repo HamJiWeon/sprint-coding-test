@@ -4,8 +4,7 @@ class Solution {
     public int solution(int[] priorities, int location) {
         int answer = 0;
         Queue<Integer> queue = new LinkedList<>();
-
-
+      
         for (int i = 0; i < priorities.length; i++) {
             queue.add(i);
         }
